@@ -1,0 +1,60 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE =====
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*~
+
+# ===== Altium Designer =====
+History/
+__Previews/
+Project Logs for */
+Project Outputs for */
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.Lck
+
+
+# ===== Fusion =====
+(.step, .f3d)
+*.f3z.bak
+*.tmp
+
+# ===== Buildroot =====
+/output/
+/build/
+/dl/
+/ccache/
+*.img
+*.sdcard
+*.ext4
+*.cpio
+*.tar.gz
+.config
+.config.old
+
+# ===== C/C++ =====
+*.o
+*.a
+*.so
+*.d
+*.elf
+cmake-build-*/
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+
+# ===== temp =====
+*.log
+/logs/
+/tmp/
+
+# ===== etc =====
+docs/
