@@ -20,6 +20,8 @@ Project Outputs for */
 *.SchDocPreview
 *.PcbDocPreview
 *.Lck
+hardware/altium/PCBs/*.html
+hardware/altium/PCBs/*.txt
 
 
 # ===== Fusion =====
